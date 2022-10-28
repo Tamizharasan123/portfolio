@@ -1,0 +1,152 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="" width=device-width, initial-scale=1.0>
+    <title>Tamizharasan </title>
+    <link rel="icon" type="image/x-icon" href="images/pic-logo.jpg">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./footer.css">
+
+</head>
+
+<body>
+    
+    <div id="preloader"></div>
+
+    <div class="container">
+
+        <div class="sidebar">
+        
+            <nav>
+                <div id="mySidebar" class="sidebar">
+                    <ul>
+                        <li><a href="index.html">Home</li></a>
+                        <li><a href="intro.html">Dashboard</li></a>
+                        <li><a href="services.html">Services</li></a>
+                        <li><a href="images/TAMIZHARASAN (Resume).pdf" target="_blank">Resume</a></li></a>
+                        <li><a href="blog.html">Blog</li></a>
+                        <li><a href="contact.html">Contact Me</li></a>
+                        <li><a href="linktree.html">Links</li></a>
+                    </ul>
+            </nav>
+        </div>
+        <div class="main" id="main">
+            <button class="openbtn" onclick="toggleNav()">
+                <i class="fas fa-bars" id="hamburger"></i>
+            </button>
+            <div class="infoContainer">
+                <div class="devInfo">
+                    <div class="hello">Hi There👋,</div>
+                    <div class="name">I'm <i>Tamizharasan</i></div>
+                    <div class="about">
+                        <h1 style="margin: auto; width: 50vw; "> <span class="auto-type"></span></h1>
+                    </div>
+                    <script src="https://cdn.jsdelivr.net/npm/typed.js@2.0.12"></script>
+                    <script>
+                        var typed=new Typed(".auto-type",{
+                            strings:["Frontend Developer"],
+                            typeSpeed:150,
+                            backSpeed:150,
+                            loop:true
+                        })
+                    </script>   
+                    
+                    
+                    <div class="buttons">
+                        <a href="images/TAMIZHARASAN (Resume).pdf" target="_blank"> <button class="btn">Download
+                                Resume</button></a>
+                        <a href="contact.html"> <button class="btn">Contact Me</button></a>
+
+                        <div class="icon-socials">
+                            <a href="https://www.linkedin.com/in/tamizharasan-m-568077253/"
+                                class="fab fa-linkedin"></a>
+                            <a href="https://www.instagram.com/_.tamizh._.armor._.007?r=nametag" class="fab fa-instagram"></a>
+                            <a href="https://www.facebook.com/tamizh.tamizh.9634340" class="fab fa-facebook"></a>
+                            <a href="https://twitter.com/TamizhArmor?s=08" class="fab fa-twitter"></a>
+                            <a href="https://github.com/Tamizharasan123" class="fab fa-github"></a>
+                        </div>
+                    </div>
+                </div>
+                <div class="devPic">
+                    <img src="images/pic-logo.jpg" alt="Shaikh Miinhaj" height="150px">
+                </div>
+            </div>
+        </div>
+
+    </div>
+    <div>
+        <img src="images/btn-LB.png" alt="o" height="30px" onclick="toggleDarkMode()">
+    </div>
+
+    <footer>
+        <div class="footer-container">
+            <div class="footer1">
+                <div class="footer-heading">
+                    About Me
+                </div>
+                <p>
+                    Hey, My Name is Tamizharasan, Currently I am Pursuing My 4th Year of UG (B.E.CSE) from  University College
+                    of Engineering Kanchipuram. I am a Frontend Developer and I am Also a Web Developer as well as
+                    Designer.
+
+                </p>
+            </div>
+            <div class="footer2">
+                <div class="footer-heading">
+                    Social Media Handles
+                </div>
+                <div class="social-media-icons">
+                    <a href="https://www.facebook.com/tamizh.tamizh.9634340" class="social-footer-icon facebook-icon"><i
+                            class="fab fa-facebook"></i></a>
+                    <a href="https://www.instagram.com/_.tamizh._.armor._.007?r=nametag" class="social-footer-icon instagram-icon"><i
+                            class="fab fa-instagram"></i></a>
+                    <a href="https://twitter.com/TamizhArmor?s=08" class="social-footer-icon twitter-icon"><i
+                            class="fab fa-twitter"></i></a>
+                    <a href="https://www.linkedin.com/in/tamizharasan-m-568077253/"
+                        class="social-footer-icon linkedin-icon"><i class="fab fa-linkedin"></i></a>
+                    <a href="https://github.com/Tamizharasan123" class="github-footer-icon github-icon">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+
+            <div class="footer4">
+                <div class="footer-heading">
+                    Quick Links
+                </div>
+                <div>
+                    <ul class="footer-link-ul">
+                        <li class="footer-link-li"><a href="services.html">Services</li></a>
+                        <li class="footer-link-li"><a href="blog.html">Blog</li></a>
+                        <li class="footer-link-li"><a href="contact.html">Contact Me</li></a>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="copy-right">
+            <p>&#xa9; Copyright 2022 - All Rights Reserved</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+
+
+    <footer class="footer">
+        <p><span>Author</span>: Tamizharasan</p>
+        <p><span>Email: </span><a href="mailto:tamizharasanm2002@gmail.com">tamizharasanm2002@gmail.com</a></p>
+    </footer>
+
+    <script>
+        var loader = document.getElementById("preloader");
+        window.addEventListener("load", function(){
+            loader.style.display = "none"
+        }) 
+    </script>
+
+</body>
+
+</html>
